@@ -1,0 +1,22 @@
+{
+  "orgName": "Demo company",
+  "edition": "Developer",
+  "adminEmail": "ricksondsilva@gmail.com",
+  "description": "scratch demo",
+  "hasSampleData": true,
+  "features": ["Communities","Sites","EnableSetPasswordInApi"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled":true
+    },
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata":true
+    }
+  }
+}
