@@ -9,6 +9,9 @@ img {
     border-radius: 7px;
 
 }
+p{
+    font-size: 18px;
+}
 .text-container{
     margin:10px;
 }
@@ -21,8 +24,13 @@ img {
    .text-container{
     min-width: 40ch;
     max-width: 70ch;
+    margin: 0 15px;
    }
    .img-container{
     min-width: 25%;
    }
   }
+  .outer-container{
+    max-width:1200px;
+    margin: 0 auto;
+}

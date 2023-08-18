@@ -1,3 +1,7 @@
+.outer-container{
+    max-width:1200px;
+    margin: 0 auto;
+}
 img {
     width:100%;
     border: 2px solid black;
@@ -22,9 +26,12 @@ button{
 }
 
 @media only screen and (min-width: 760px){
-    
+    .outer-container{
+        display: flex;
+        flex-direction: row-reverse;
+    }
 .container{
-    float:left;
+   
     width:50%;
 }
 .call-to-action{

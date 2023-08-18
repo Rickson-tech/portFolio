@@ -1,0 +1,58 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "About Me",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"64f6d918-c622-43aa-8c74-4243787b66c7\",\"columns\":[{\"UUID\":\"3566d8d3-cb59-4971-beeb-621e99a2c987\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:aboutMe",
+              "id" : "47e2603a-cde6-427a-b0cf-6b68107209e7",
+              "type" : "component"
+            } ],
+            "id" : "3566d8d3-cb59-4971-beeb-621e99a2c987",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "64f6d918-c622-43aa-8c74-4243787b66c7",
+          "type" : "component"
+        } ],
+        "id" : "fb189e66-a5f5-4853-a024-9874328bca1b",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "About Me",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "0eb7c34f-3b7d-439a-95e8-7039ee8ea0ac",
+          "type" : "component"
+        } ],
+        "id" : "5dcfa9e8-6b5d-4b71-9be2-e43b719eb545",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "4ee15b84-8b5f-46c5-93e4-5b2491eb2eb8",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-about-me"
+  }
+}
